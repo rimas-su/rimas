@@ -1,0 +1,727 @@
+<!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>RIMAS</title>
+
+        <link rel="icon" type="image/png" sizes="32x32" href="temlate/logo.png">
+        <link rel="stylesheet" href="temlate/css/bootstrap.min.css">
+        <link rel="stylesheet" href="temlate/css/flexslider.css">
+        <link rel="stylesheet" href="temlate/css/jquery.fancybox.css">
+
+        <link rel="stylesheet" href="temlate/css/main.css">
+        <link rel="stylesheet" href="temlate/css/responsive.css">
+        <link rel="stylesheet" href="temlate/css/processdiagram.css">
+        <link rel="stylesheet" href="temlate/css/descript.css">
+
+        <link rel="stylesheet" href="temlate/css/animate.min.css">
+        <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+
+
+    </head>
+    <body>
+
+        <section class="banner" role="banner" id="banner">
+            <header id="header">
+                <div class="header-content clearfix">
+                    <a class="logo" href="#"><img
+                            src="temlate/images/Римас_лого-svg.svg" width="200px"
+                            height="50px"></a>
+                    <!-- <p class="rimas-header">RIMAS</p> -->
+                    <div class="ri-conten">
+                        <p class="rimas-contact">+7 909 219-99-00 </p>
+                        <p class="rimas-contact">info@rimas.su</p>
+                    </div>
+                    <div class="ri-conten1">
+                        <p class="rima">Делаем вашу работу эффетивнее! </p>
+                    </div>
+                </div><!-- header content -->
+            </header><!-- header -->
+
+
+
+            <div class="backButton" id = "backButton">
+
+            <div class="container">
+                <div class="diagram">
+                    <div class="wrapperBlocks">
+                        <div id="block_1" class="block_main">
+                            <p>Автоматизация производства</p>
+                        </div>
+                        <div id="block_2" class="block_main">
+                            <p>Техническая поддержка производства</p>
+                        </div>
+
+                        <div onclick= "location.href='#window'" id="block_1_1" class="block_child">
+                            <p>Автоматизация технологического процесса</p>
+                        </div>
+                        <div onclick= "location.href='#window'" id="block_1_2" class="block_child">
+                            <p>Автоматизация контроллинга</p>
+                        </div>
+                        <div  onclick= "location.href='#window'" id="block_1_3" class="block_child">
+                            <p>Автоматизация рабочих мест</p>
+                        </div>
+
+                        <div onclick= "location.href='#window'" id="block_2_1" class="block_child">
+                            <p>Аудит систем автоматизации</p>
+                        </div>
+                        <div onclick= "location.href='#window'" id="block_2_2" class="block_child">
+                            <p>Техническое обслуживание силовых приводов</p>
+                        </div>
+                        <div onclick= "location.href='#window'" id="block_2_3" class="block_child">
+                            <p>Дистанционное консультирование</p>
+                        </div>
+                        <!-- <div id="line">
+                        </div>
+                        <div>
+                        </div> -->
+                    </div>
+                    <!-- <p><a name="top"></a></p> //здесь нет текста , ВАЖНО!!!!
+                    <h1>Ля-ля-ля три рубля</h1>
+                    <p><a href="#top">Наверх</a></p>//а это переход на top -->
+                    <!-- <div id="main_blocks">
+                        <div id="block_1" class="block">
+                            <p>Блок_1</p>
+                        </div>
+                        <div id="block_2" class="block">
+                            <p>Блок_2</p>
+                        </div>
+                    </div>
+
+                    <div id="items_block_1" >
+                        <div id="block_1_1" class="block">
+                            <p>Блок_1_1</p>
+                        </div>
+                        <div id="block_1_2" class="block">
+                            <p>Блок_1_2</p>
+                        </div>
+                        <div id="block_1_2" class="block">
+                            <p>Блок_1_3</p>
+                        </div>
+                    </div> -->
+
+                    <!-- <div id="items_block_2" class="child_block">
+                        <div id="block_2_1" class="block">
+                            <p>Блок_1_1</p>
+                        </div>
+                        <div id="block_2_2" class="block">
+                            <p>Блок_1_2</p>
+                        </div>
+                        <div id="block_2_2" class="block">
+                            <p>Блок_1_3</p>
+                        </div>
+                    </div> -->
+                </div>
+                <script src="temlate/js/diagram.js"></script>
+                </script>
+
+
+            </div>
+        </div>
+        </section><!-- banner -->
+
+        <section id="features" class="features section">
+            <div class="popup__bg">
+                <form class="popup">
+                    <img src="temlate/images/icons8-close.svg" class="close-popup">
+                        <div id= "popup_p" class="feature-content">
+                            <h5 >Услуга</h5>
+                            <p>Совместная проработка и подготовка технического
+                                задания.</p>
+                        </div>
+                </form>
+            </div>
+            <div class="container">
+                <span class="anchor" id = "window"></span>
+                <!-- <h2 style="margin-bottom: 5%;">Услуги</h2> -->
+                <div class="row" name = "pack">
+                    <div id = "feature1" class="col-md-4 col-sm-6 feature text-center">
+                        <div id = "fetures_1_1" class="open-popup">
+                        <span class="icon icon-gears"></span>
+                        <div class="feature-content">
+                            <h5 class="open-popup">Автоматизация тех. процесса</h5>
+                            <p class="open-popup">Совместная проработка и подготовка технического
+                                задания.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 feature text-center">
+                        <div id = "fetures_1_2" class="open-popup">
+                        <span class="icon icon-compass"></span>
+                        <div class="feature-content">
+                            <h5>Автоматизация контроллинга</h5>
+                            <p>Сборка и комплектация систем, их
+                                программирование.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 feature text-center">
+                        <div  id = "fetures_1_3" class="open-popup">
+                        <span class="icon icon-lifesaver"></span>
+                        <div class="feature-content">
+                            <h5>Автоматизация рабочих мест</h5>
+                            <p>Произведение пусконаладочных работ и обучение
+                                обслуживающего персонала.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 feature1 text-center">
+                        <div id = "fetures_2_1" class="open-popup">
+                        <span class="icon icon-layers"></span>
+                        <div class="feature-content">
+                            <h5>Аудит систем автоматизации</h5>
+                            <p>Изготовление и установка систем удаленной
+                                диспетчеризации и визуализации процессов.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 feature1 text-center">
+                        <div id = "fetures_2_2" class="open-popup">
+                        <span class="icon icon-briefcase"></span>
+                        <div class="feature-content">
+                            <h5>Обслуживание силовых приводов</h5>
+                            <p>Проведение аудита и технического обслуживание
+                                имеющихся автоматизированных систем.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 feature1 text-center">
+                        <div id = "fetures_2_3" class="open-popup">
+                        <span class="icon icon-notebook"></span>
+                        <div class="feature-content">
+                            <h5>Дистанционное консультирование</h5>
+                            <p>Техническое обслуживание преобразователей частоты
+                                любых производителей.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- features -->
+
+
+        <section id="stength" class="stength">
+            <div class="container">
+
+                <!-- <h2 style="color: #FFF;">Преимущества</h2> -->
+
+                <div class="stength-row">
+                    <div class="col-md-4 col-sm-6 feature2 text-center">
+                        <span class="icon icon-happy"></span>
+                        <div class="feature2-content">
+                            <h5>Быстро</h5>
+                            <p>Совместная проработка и подготовка технического задания.Совместная проработка и подготовка технического задания.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 feature2 text-center">
+                        <span class="icon icon-ribbon"></span>
+                        <div class="feature2-content">
+                            <h5>Вкусно</h5>
+                            <p>Сборка и комплектация систем, их программирование.Совместная проработка и подготовка технического задания.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 feature2 text-center">
+                        <span class="icon icon-basket"></span>
+                        <div class="feature2-content">
+                            <h5>Качественно</h5>
+                            <p>#3a3e64Совместная проработка и подготовка технического задания.Совместная проработка и подготовка технического задания.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2>Портфолио</h2>
+
+                <div style="position: relative;">
+                    <!-- Кнопки навигации -->
+                    <button class="scroll-btn scroll-left" onclick="scrollPortfolio(-300)">←</button>
+                    <button class="scroll-btn scroll-right" onclick="scrollPortfolio(300)">→</button>
+
+                    <!-- Контейнер с карточками -->
+                    <div class="portfolio-scroll" id="portfolioScroll">
+                        <!-- Карточка 1 -->
+                        <div class="portfolio-card">
+                            <div class="card-content">
+                                <h4>Холодное напыление</h4>
+                                <p>Реализация проекта холодного напыления на предприятии стекольной промышленности, с заменой итальянского оборудования на бренд Delta.</p>
+                                <small>Стекольная промышленность</small>
+                            </div>
+                        </div>
+
+                        <!-- Карточка 2 -->
+                        <div class="portfolio-card">
+                            <div class="card-content">
+                                <h4>Удаленный контроль</h4>
+                                <p>Внедрение системы удаленного контроля технологическим процессом изготовления колбасной продукции, с применением оборудования Aditec.</p>
+                                <small>Пищевая промышленность</small>
+                            </div>
+                        </div>
+
+                        <!-- Карточка 3 -->
+                        <div class="portfolio-card">
+                            <div class="card-content">
+                                <h4>Восстановление Sidel</h4>
+                                <p>Аудит и восстановление работоспособности линии розлива питьевой воды Sidel.</p>
+                                <small>Линии розлива</small>
+                            </div>
+                        </div>
+
+                        <!-- Карточка 4 -->
+                        <div class="portfolio-card">
+                            <div class="card-content">
+                                <h4>Модернизация Sheppee</h4>
+                                <p>Модернизация загрузчика лера печи обжига Sheppee MRS-9000 на предприятии стекольной промышленности.</p>
+                                <small>Стекольная промышленность</small>
+                            </div>
+                        </div>
+
+                        <!-- Карточка 5 -->
+                        <div class="portfolio-card">
+                            <div class="card-content">
+                                <h4>Машинное зрение</h4>
+                                <p>Использование машинного зрения на конвейере для отбраковки продукции при производстве напитков, оборудование Omron.</p>
+                                <small>Контроль качества</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <style>
+                .portfolio {
+                    padding: 40px 0;
+                    background: #f5f5f5;
+                }
+
+                .portfolio h2 {
+                    text-align: center;
+                    margin-bottom: 30px;
+                    color: #333;
+                }
+
+                .portfolio-scroll {
+                    display: flex;
+                    overflow-x: auto;
+                    gap: 20px;
+                    padding: 10px 0 20px;
+                    scroll-behavior: smooth;
+                    -webkit-overflow-scrolling: touch;
+                }
+
+                .portfolio-scroll::-webkit-scrollbar {
+                    height: 6px;
+                }
+
+                .portfolio-scroll::-webkit-scrollbar-track {
+                    background: #ddd;
+                    border-radius: 3px;
+                }
+
+                .portfolio-scroll::-webkit-scrollbar-thumb {
+                    background: #4e4e73;
+                    border-radius: 3px;
+                }
+
+                .portfolio-card {
+                    flex: 0 0 300px;
+                    background: white;
+                    border-radius: 8px;
+                    padding: 20px;
+                    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                    border-left: 4px solid #4e4e73;
+                }
+
+                .portfolio-card h4 {
+                    margin: 0 0 10px 0;
+                    color: #333;
+                    font-size: 18px;
+                }
+
+                .portfolio-card p {
+                    margin: 0 0 15px 0;
+                    color: #666;
+                    font-size: 14px;
+                    line-height: 1.5;
+                }
+
+                .portfolio-card small {
+                    color: #e84545;
+                    font-size: 12px;
+                    font-weight: bold;
+                }
+
+                .scroll-btn {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    width: 40px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 50%;
+                    background: #4e4e73;
+                    color: white;
+                    font-size: 20px;
+                    cursor: pointer;
+                    z-index: 10;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: 0.3s;
+                }
+
+                .scroll-btn:hover {
+                    background: #e84545;
+                }
+
+                .scroll-left {
+                    left: -20px;
+                }
+
+                .scroll-right {
+                    right: -20px;
+                }
+
+                @media (max-width: 768px) {
+                    .scroll-btn {
+                        display: none;
+                    }
+
+                    .portfolio-card {
+                        flex: 0 0 260px;
+                    }
+                }
+            </style>
+
+            <script>
+                function scrollPortfolio(amount) {
+                    document.getElementById('portfolioScroll').scrollBy({
+                        left: amount,
+                        behavior: 'smooth'
+                    });
+                }
+            </script>
+        </section>
+
+        <section id="portfolio2" class="portfolio">
+            <div class="container">
+                <h2>Портфолио</h2>
+
+                <div style="position: relative;">
+                    <!-- Кнопки навигации -->
+                    <button class="scroll-btn scroll-left" onclick="scrollPortfolio(-300)">←</button>
+                    <button class="scroll-btn scroll-right" onclick="scrollPortfolio(300)">→</button>
+
+                    <!-- Контейнер с карточками -->
+                    <div class="portfolio-scroll" id="portfolioScroll">
+                        <!-- Карточка 1 -->
+                        <div class="portfolio-card">
+                            <div class="card-content">
+                                <h4>Холодное напыление</h4>
+                                <p>Реализация проекта холодного напыления на предприятии стекольной промышленности,
+                                    с заменой итальянского оборудования на бренд Delta,
+                                    с переводом на работу с асинхронным двигателем, вместо сервомотора</p>
+                                <small>Стекольная промышленность</small>
+                            </div>
+                        </div>
+
+                        <!-- Карточка 2 -->
+                        <div class="portfolio-card">
+                            <div class="card-content">
+                                <h4>Удаленный контроль</h4>
+                                <p>Реализация проекта по внедрению системы удаленного контроля технологическим процессом
+                                    изготовления колбасной продукции, с применением оборудования Aditec</p>
+                                <small>Пищевая промышленность</small>
+                            </div>
+                        </div>
+
+                        <!-- Карточка 4 -->
+                        <div class="portfolio-card">
+                            <div class="card-content">
+                                <h4>Модернизация Sheppee</h4>
+                                <p>Реализация проекта по модернизации загрузчика лера печи обжига Sheppee MRS-9000 на предприятии стекольной промышленности, с заменой оборудования на бренд Delta.</p>
+                                <small>Стекольная промышленность</small>
+                            </div>
+                        </div>
+
+                        <!-- Карточка 5 -->
+                        <div class="portfolio-card">
+                            <div class="card-content">
+                                <h4>Машинное зрение</h4>
+                                <p>Реализация проекта использования машинного зрения на конвейере для отбраковки некачественно укупоренной и/или этикерованной продукции при производстве напитков, с применением оборудования Omron</p>
+                                <small>Контроль качества</small>
+                            </div>
+                        </div>
+
+                        <!-- Карточка 3 -->
+                        <div class="portfolio-card">
+                            <div class="card-content">
+                                <h4>Восстановление Sidel</h4>
+                                <p>Аудит и восстановление работоспособности линии розлива питьевой воды Sidel.</p>
+                                <small>Линии розлива</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <style>
+                .portfolio {
+                    padding: 40px 0;
+                    background: #f5f5f5;
+                }
+
+                .portfolio h2 {
+                    text-align: center;
+                    margin-bottom: 30px;
+                    color: #333;
+                }
+
+                .portfolio-scroll {
+                    display: flex;
+                    overflow-x: auto;
+                    gap: 20px;
+                    padding: 10px 0 20px;
+                    scroll-behavior: smooth;
+                    -webkit-overflow-scrolling: touch;
+                }
+
+                .portfolio-scroll::-webkit-scrollbar {
+                    height: 6px;
+                }
+
+                .portfolio-scroll::-webkit-scrollbar-track {
+                    background: #ddd;
+                    border-radius: 3px;
+                }
+
+                .portfolio-scroll::-webkit-scrollbar-thumb {
+                    background: #4e4e73;
+                    border-radius: 3px;
+                }
+
+                .portfolio-card {
+                    flex: 0 0 300px;
+                    background: white;
+                    border-radius: 8px;
+                    padding: 20px;
+                    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                    border-left: 4px solid #4e4e73;
+                }
+
+                .portfolio-card h4 {
+                    margin: 0 0 10px 0;
+                    color: #333;
+                    font-size: 18px;
+                }
+
+                .portfolio-card p {
+                    margin: 0 0 15px 0;
+                    color: #666;
+                    font-size: 14px;
+                    line-height: 1.5;
+                }
+
+                .portfolio-card small {
+                    color: #e84545;
+                    font-size: 12px;
+                    font-weight: bold;
+                }
+
+                .scroll-btn {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    width: 40px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 50%;
+                    background: #4e4e73;
+                    color: white;
+                    font-size: 20px;
+                    cursor: pointer;
+                    z-index: 10;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: 0.3s;
+                }
+
+                .scroll-btn:hover {
+                    background: #e84545;
+                }
+
+                .scroll-left {
+                    left: -20px;
+                }
+
+                .scroll-right {
+                    right: -20px;
+                }
+
+                @media (max-width: 768px) {
+                    .scroll-btn {
+                        display: none;
+                    }
+
+                    .portfolio-card {
+                        flex: 0 0 260px;
+                    }
+                }
+            </style>
+
+            <script>
+                function scrollPortfolio(amount) {
+                    document.getElementById('portfolioScroll').scrollBy({
+                        left: amount,
+                        behavior: 'smooth'
+                    });
+                }
+            </script>
+        </section>
+
+
+        <section id="fam" class="fam">
+            <div class="form-and-map">
+                <div class="form">
+                    <div class="right-side">
+                        <!-- Заголовок для формы -->
+                        <div class="topic-text">Отправьте нам сообщение</div>
+                        <!-- Какой-то дополнительный текст -->
+                        <p>
+                            Если у вас есть какие-то вопросы или предложения по
+                            сотрудничеству -
+                            заполните форму ниже
+                        </p>
+                        <!-- Форма обратной связи -->
+                        <form action="#">
+                            <!-- Каждый input для выравнивания вкладываем в блок input-box -->
+                            <div class="input-box">
+                                <input id="name" type="text" placeholder="Ваше имя" />
+                            </div>
+                            <div class="input-box">
+                                <input id="mail" type="email" placeholder="Введите email" />
+                            </div>
+                            <div class="input-box">
+                                <input type="email" id="mail" name="mail" placeholder= "Введите телефон"/>
+                            </div>
+                            <div class="input-box message-box">
+                                <textarea placeholder="Сообщение"></textarea>
+                            </div>
+                            <div class="button" id="buttonForm">
+                                <input type="button" value="Отправить" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+            <div class="mapa">
+                <div class="map-contenier">
+                    <iframe class="map"
+                        src="https://yandex.ru/map-widget/v1/?um=constructor%3A25b647f8912936eb9716bc6e8a8a9af53cf6623f1e9f73dcdcbd92e62a9553eb&amp;source=constructor"
+                        width="500" height="400" frameborder="0"></iframe>
+                </div>
+                <div class="map-contact">
+                    <p>398042, г. Липецк, ул. Московская, д. 6АС1, оф. 316</p>
+                    <p>+7 909 219-99-00 </p>
+                    <p>info@rimas.su</p>
+                </div>
+            </div>
+            <!-- <div class="right-map">
+
+            </div> -->
+            <!-- <div class="right-map">
+                <span class="icon icon-download"></span>
+                <div class="feature-content">
+                    <h5>Установка</h5>
+                    <p>Изготовление и установка систем удаленной диспетчеризации и визуализации процессов.</p>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    </section>
+
+    <!-- <script>
+        const email = document.getElementById("mail");
+        email.addEventListener("input", function (event) {
+            if (email.validity.typeMismatch) {
+                email.setCustomValidity("I am expecting an e-mail address!");
+            } else {
+                email.setCustomValidity("");
+            }
+        });
+
+    </script> -->
+
+
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="footer-col col-md-4">
+                        <h5>Location</h5>
+                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                    </div> -->
+                    <!-- <div class="footer-col col-md-4">
+                        <h5>Контакты</h5>
+                        <ul class="footer-share">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/kamal_chaneman"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/kamalchaneman"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div> -->
+                    <!-- <div class="footer-col col-md-4">
+                        <h5>About ActiveBox</h5>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div> -->
+                </div>
+            </div>
+            <!-- footer top -->
+            <div class="footer-bottom">
+                <div class="container">
+
+                    <div class="col-md-12">
+                        <div class="footer-col col-md-4">
+                            <h5>Контакты</h5>
+                            <ul class="footer-share">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/kamal_chaneman"><i
+                                            class="fa fa-twitter"></i></a></li>
+                                <li><a
+                                        href="https://www.linkedin.com/in/kamalchaneman"><i
+                                            class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                        <p>Дьяченко Сергей Станиславович</p>
+                    </div>
+                </div>
+            </div>
+        </footer><!-- footer -->
+
+
+        <script src="temlate/js/descriptions.js">
+        </script>
+
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="temlate/js/jquery.min.js"><\/script>')</script>
+        <script src="temlate/js/bootstrap.min.js"></script>
+        <script src="temlate/js/jquery.flexslider-min.js"></script>
+        <script src="temlate/js/jquery.fancybox.pack.js"></script>
+        <script src="temlate/js/jquery.waypoints.min.js"></script>
+        <script src="temlate/js/retina.min.js"></script>
+        <script src="temlate/js/modernizr.js"></script>
+        <script src="temlate/js/main.js"></script>
+        <script src="temlate/js/validate.js"></script>
+
+    </body>
+</html>
